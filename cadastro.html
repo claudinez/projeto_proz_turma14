@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projeto Final Proz Tech Turma 14 - Grupo 03</title>
+    <title>Prestação de Serviço Médico</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <header>
+        <img src="../img/Logo_MedPrest1.png" alt="Logo Medicina">
+        <h1>Prestação de Serviço Médico</h1>
+        <nav>
+            <ul>
+                <li><a href="sobre.html">Sobre</a></li>
+                <li><a href="servico.html">Serviço</a></li>
+                <li><a href="cadastro.html">Cadastro</a></li>
+                <li><a href="faleconosco.html">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+    <div class="linksContainer">
+        <a class="links" id="fazercadastro"></a>
+        <a class="links" id="fazerLogin"></a>
+
+        <div class="content">
+            <!--FORMULÁRIO DE LOGIN-->
+            <div id="login">
+                <form method="post" action="link">
+                    <h1>Login</h1>
+                    <p>
+                        <label for="email_login">Seu e-mail</label>
+                        <input id="email_login" name="email_login" type="text" />
+                    </p>
+                    <p>
+                        <label for="senha_login">Sua senha</label>
+                        <input id="senha_login" name="senha_login" type="password" />
+                    </p>
+
+                    <p>
+                        <input type="submit" value="Logar" />
+                    </p>
+                    <p class="link">
+                        <a href="#fazerCadastro">Cadastre-se</a>
+                    </p>
+                </form>
+            </div>
+            <div id="cadastro">
+                <form method="post" action=a href="index.html"> </a>
+                    <h1>Cadastro</h1>
+
+                    <p>
+                        <label for="nome_cad">Seu nome</label>
+                        <input id="nome_cad" name="nome_cadastro" type="text" />
+                    </p>
+
+                    <p>
+                        <label for="email_cadastro">Seu e-mail</label>
+                        <input id="email_cadastro" name="email_cadastro" type="email" />
+                    </p>
+
+                    <p>
+                        <label for="senha_cadastro">Sua senha</label>
+                        <input id="senha_cadastro" name="senha_cadastro" type="password" "/>
+                        </p>
+
+                        <p> 
+                            <input type=" submit" value="Cadastrar" />
+                    </p>
+
+                    <p class="link">
+                        Já tem conta?
+                        <a href="#fazerLogin"> Ir para Login </a>
+                    </p>
+                </form>
+            </div>
+        </div>
+    </div>
+    <footer>
+        <ul>
+            <a href="../index.html">Voltar</a>
+        </ul>
+    </footer>
+</body>
