@@ -5,6 +5,7 @@ git commit -m "%commit_message%"
 git branch -M main
 git push -u origin main
 
+
 Para inicio do git com a primeira importação git init 
 trocar --> git config user.name claudinez 
 trocar --> git config user.email andrade.claudinez@gmail.com git add --all 
