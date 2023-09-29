@@ -1,0 +1,217 @@
+* {
+    padding: 0;
+    margin: 0;
+    border: 0;
+    box-sizing: border-box
+  }
+
+header {
+    background-color: #007BFF;
+    color: #fff;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 30px;
+    box-shadow: 5px 5px 3px;
+}
+
+header img {
+    width: 50px; /* Reduza a largura para 30px */
+    height: 50px; /* Reduza a altura para 30px */
+    margin-right: 10px;
+    border-radius: 50%;
+}
+
+nav ul li {
+    align-items: center;
+    display: inline;
+    margin-right: 10px; /* Reduza a margem para 10px */
+}
+
+nav ul li a {
+    text-decoration: none;
+}
+
+
+#sobre {
+    width: 450px;
+    background-color: #007bff;
+    padding: 20px;
+    border-radius: 40px;
+    text-align: center;
+    margin: 0px; /* Centraliza horizontalmente */
+    margin-top: 10px;
+    box-shadow: 5px 5px 3px;
+}
+
+.section {
+    background-color: #007bff;
+    padding: 20px;
+    border-radius: 40px;
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 20px;
+    width: 450px;
+    display: inline;
+}
+
+.section h2 {
+    margin: 0;
+}
+
+.sobre-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.sobre-text {
+    text-align: justify;
+    margin-bottom: 20px;
+}
+
+.sobre-images {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.sobre-images img {
+    width: 50px;
+    height: 50px;
+    margin:  5px;
+}
+
+.sobre-paragraph {
+    text-align: center;
+    margin-top: 20px;
+}
+
+/* Estilos da seção "Serviço" */
+#servico {
+    background-color: #007bff;    
+    padding: 0px;
+    border-radius: 40px;
+    text-align: center;
+    margin-right: 15%; /* Adiciona margem para afastar a seção do cabeçalho e da seção "Sobre" */
+    width: 35%;/* Defina a largura desejada */
+    display: inline-block;
+    vertical-align: top; /* Alinha ao topo da linha */
+    box-shadow: 5px 5px 3px;
+    position: static;  
+    top: 0px ;  
+}
+
+/* Remova a margem superior do cabeçalho do "Serviço" */
+#servico h2 {
+    margin-top: 0;
+}
+
+/* Estilos da seção "Cadastro" */
+#cadastro {
+    background-color: #007bff;    
+    padding: 0px;
+    border-radius: 50px;
+    text-align: center;
+    margin-right: 15%; /* Adiciona margem para afastar a seção do cabeçalho e da seção "Sobre" */
+    margin: 20px;
+    width: 35%;/* Defina a largura desejada */
+    display: inline-block;
+    vertical-align: top; /* Alinha ao topo da linha */
+    box-shadow: 5px 5px 3px;
+    position: static;  
+    top: 0px ;  
+}
+
+/* Remova a margem superior do cabeçalho do "Serviço" */
+#cadastro h2 {
+    margin-top: 0;
+}
+
+/* Estilos da seção "Serviço" */
+#contato {
+    background-color: #007bff;    
+    padding: 0px;
+    border-radius: 40px;
+    text-align: center;
+    margin-right: 15%; /* Adiciona margem para afastar a seção do cabeçalho e da seção "Sobre" */
+    width: 35%;/* Defina a largura desejada */
+    display: inline-block;
+    vertical-align: top; /* Alinha ao topo da linha */
+    box-shadow: 5px 5px 3px;
+    position: static;  
+    top: 0px ;  
+    margin: 20px;
+}
+
+/* Remova a margem superior do cabeçalho do "Serviço" */
+#servico h2 {
+    margin-top: 0;
+}
+
+
+/* Estilos para o rodapé */
+footer {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    background-color: #007BFF;
+    border-radius: 30px;
+    box-shadow: 5px 5px 3px;
+    align-items: flex-start; /* Alinha os conteúdos ao topo verticalmente */
+}
+
+.left-column {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start; /* Alinha à esquerda dentro da coluna esquerda */
+}
+
+.right-column {
+    text-align: right; /* Alinha o conteúdo à direita */
+}
+
+/* Estilos para a lista não ordenada */
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+/* Estilos para os links nas redes sociais */
+ul li a {
+    text-decoration: none;
+    color: #fff; /* Cor do texto branco */
+    margin-right: 10px;
+    margin-left: 600px;
+}
+
+ul li a img {
+    width: 20px;
+    height: 20px;
+    vertical-align: middle;
+    margin-right: 10px;
+}
+
+footer img {
+    width: 60px;
+    height: 60px;
+    margin-right: 10px;
+    border-radius: 50%;
+}
+
+footer .footer-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+footer .contato {
+    text-align: left;
+    margin-left: 200px; /* Ajuste a margem conforme necessário */
+}
+
+footer .social-media {
+    text-align: right;
+    margin-right: 100px; /* Ajuste a margem conforme necessário */
+}
