@@ -69,8 +69,9 @@ body, ul {
     border-radius: 30px;
     text-align: center;
     margin: 0px; /* Centraliza horizontalmente */
-    margin-top: 10px;
+    margin-top: 15px;
     box-shadow: 5px 5px 3px;
+    margin-left: 20px;
 }
 
 .section {
@@ -122,13 +123,14 @@ body, ul {
     padding: 0px;
     border-radius: 30px;
     text-align: center;
-    margin-right: 15%; /* Adiciona margem para afastar a seção do cabeçalho e da seção "Sobre" */
+    margin-right: 15px; /* Adiciona margem para afastar a seção do cabeçalho e da seção "Sobre" */
     width: 35%;/* Defina a largura desejada */
     display: inline-block;
     vertical-align: top; /* Alinha ao topo da linha */
     box-shadow: 5px 5px 3px;
     position: static;  
     top: 0px ;  
+    margin-left: 20px;
 }
 
 /* Remova a margem superior do cabeçalho do "Serviço" */
