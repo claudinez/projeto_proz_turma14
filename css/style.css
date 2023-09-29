@@ -1,37 +1,62 @@
-* {
-    padding: 0;
+/* Reset de estilos para o body e a lista de navegação */
+body, ul {
     margin: 0;
-    border: 0;
-    box-sizing: border-box
-  }
+    padding: 0;
+}
 
-header {
-    background-color: #007BFF;
-    color: #fff;
-    padding: 10px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    border-radius: 30px;
+/* Estilos para o cabeçalho */
+.header {
+    background-color: #0074cc; /* Cor de fundo azul */
+    padding: 5px;
+    margin-top: 0px;
+    text-align: center;
+    border-radius: 10px; /* Arredonda os cantos do cabeçalho */
     box-shadow: 5px 5px 3px;
 }
 
-header img {
-    width: 50px; /* Reduza a largura para 30px */
-    height: 50px; /* Reduza a altura para 30px */
-    margin-right: 10px;
-    border-radius: 50%;
-}
-
-nav ul li {
+.header-container {
+    display: flex;
     align-items: center;
-    display: inline;
-    margin-right: 10px; /* Reduza a margem para 10px */
+    justify-content: space-between; /* Espaço entre a logo/nav e o título */
 }
 
-nav ul li a {
-    text-decoration: none;
+.logo {
+    width: 50px; /* Tamanho pequeno para o logo */
+    height: 50px;
+    border-radius: 50px;
 }
+
+.header-title {
+    color: white; /* Cor do texto do título */
+    font-size: 24px;
+    margin-right: 800px;
+    text-align: center; /* Centraliza o texto horizontalmente */
+}
+
+/* Estilos para a navegação principal */
+.nav-list {
+    list-style-type: none;
+    margin-top: 0px; /* Espaço entre o título e a lista de navegação */
+    display: flex; /* Exibe os itens em uma linha */
+    margin-left: 800px;
+}
+
+.nav-list li {
+    margin-right: 20px;
+}
+
+.nav-list a {
+    text-decoration: none;
+    color: white; /* Cor do texto dos links */
+    font-weight: bold;
+    margin-left: 20px;
+}
+
+.nav-list a:hover {
+    text-decoration: underline; /* Sublinhar ao passar o mouse */
+}
+
+
 
 
 #sobre {
