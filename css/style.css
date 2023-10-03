@@ -21,15 +21,17 @@ body, ul {
 }
 
 .logo {
-    width: 50px; /* Tamanho pequeno para o logo */
-    height: 50px;
-    border-radius: 50px;
+    width: 170px; /* Tamanho pequeno para o logo */
+    height: 170px;
+    border-radius:25px;
+    margin-top: 25px;
+    margin-left: 20px; 
 }
 
 .header-title {
-    color: white; /* Cor do texto do título */
-    font-size: 24px;
-    margin-right: 800px;
+    color: rgb(251, 249, 249); /* Cor do texto do título */
+    font-size: 55px;
+    margin-right: 500px;
     text-align: center; /* Centraliza o texto horizontalmente */
 }
 
@@ -60,12 +62,12 @@ body, ul {
 
 #sobre {
     width: 450px;
-    background-color: #007bff;
+    background-color: #87CEEB;
     padding: 20px;
-    border-radius: 40px;
+    border-radius: 30px;
     text-align: center;
     margin: 0px; /* Centraliza horizontalmente */
-    margin-top: 10px;
+    margin-top: 15px;
     box-shadow: 5px 5px 3px;
     margin-left: 20px;
 }
@@ -114,17 +116,18 @@ body, ul {
 
 /* Estilos da seção "Serviço" */
 #servico {
-    background-color: #007bff;    
+    background-color: #87CEEB;    
     padding: 0px;
-    border-radius: 40px;
+    border-radius: 30px;
     text-align: center;
-    margin-right: 15%; /* Adiciona margem para afastar a seção do cabeçalho e da seção "Sobre" */
+    margin-right: 15px; /* Adiciona margem para afastar a seção do cabeçalho e da seção "Sobre" */
     width: 35%;/* Defina a largura desejada */
     display: inline-block;
     vertical-align: top; /* Alinha ao topo da linha */
     box-shadow: 5px 5px 3px;
     position: static;  
     top: 0px ;  
+    margin-left: 20px;
 }
 
 /* Remova a margem superior do cabeçalho do "Serviço" */
@@ -134,9 +137,9 @@ body, ul {
 
 /* Estilos da seção "Cadastro" */
 #cadastro {
-    background-color: #007bff;    
+    background-color: #87CEEB;    
     padding: 0px;
-    border-radius: 50px;
+    border-radius: 30px;
     text-align: center;
     margin-right: 15%; /* Adiciona margem para afastar a seção do cabeçalho e da seção "Sobre" */
     margin: 20px;
