@@ -21,26 +21,24 @@ body, ul {
 }
 
 .logo {
-    width: 170px; /* Tamanho pequeno para o logo */
-    height: 170px;
-    border-radius:25px;
-    margin-top: 15px;
-    margin-left: 20px; 
+    width: 50px; /* Tamanho pequeno para o logo */
+    height: 50px;
+    border-radius: 50px;
 }
 
 .header-title {
-    color: rgb(251, 249, 249); /* Cor do texto do título */
-    font-size: 45px;
-    margin-right: 500px;
+    color: white; /* Cor do texto do título */
+    font-size: 24px;
+    margin-right: 800px;
     text-align: center; /* Centraliza o texto horizontalmente */
 }
 
 /* Estilos para a navegação principal */
 .nav-list {
     list-style-type: none;
-    margin-top: 0px; /* Espaço entre o título e a lista de navegação */
+    margin-top: 10px; /* Espaço entre o título e a lista de navegação */
     display: flex; /* Exibe os itens em uma linha */
-    margin-left: 800px;
+    margin-left: 1000px;
 }
 
 .nav-list li {
@@ -61,14 +59,15 @@ body, ul {
 
 
 #sobre {
-    background-color: #87CEEB;
-    text-align: center;
-    width: 600px;
-    margin: 20px;
-    padding: 50px, 10px, 10px,;
+    width: 450px;
+    background-color: #007bff;
+    padding: 20px;
     border-radius: 40px;
-    float: left;
+    text-align: center;
+    margin: 0px; /* Centraliza horizontalmente */
+    margin-top: 10px;
     box-shadow: 5px 5px 3px;
+    margin-left: 20px;
 }
 
 .section {
@@ -115,12 +114,17 @@ body, ul {
 
 /* Estilos da seção "Serviço" */
 #servico {
-    background-color: #87CEEB;    
-    width: 33.33%;
-    padding: 40px;
+    background-color: #007bff;    
+    padding: 0px;
     border-radius: 40px;
-    float: right;
-    top: 5px;
+    text-align: center;
+    margin-right: 15%; /* Adiciona margem para afastar a seção do cabeçalho e da seção "Sobre" */
+    width: 35%;/* Defina a largura desejada */
+    display: inline-block;
+    vertical-align: top; /* Alinha ao topo da linha */
+    box-shadow: 5px 5px 3px;
+    position: static;  
+    top: 0px ;  
 }
 
 /* Remova a margem superior do cabeçalho do "Serviço" */
@@ -130,12 +134,18 @@ body, ul {
 
 /* Estilos da seção "Cadastro" */
 #cadastro {
-    background-color: #87CEEB;    
-    float: right;
-    width: 33.33%;
-    padding: 40px;
-    border-radius: 40px;
-
+    background-color: #007bff;    
+    padding: 0px;
+    border-radius: 50px;
+    text-align: center;
+    margin-right: 15%; /* Adiciona margem para afastar a seção do cabeçalho e da seção "Sobre" */
+    margin: 20px;
+    width: 35%;/* Defina a largura desejada */
+    display: inline-block;
+    vertical-align: top; /* Alinha ao topo da linha */
+    box-shadow: 5px 5px 3px;
+    position: static;  
+    top: 0px ;  
 }
 
 /* Remova a margem superior do cabeçalho do "Serviço" */
