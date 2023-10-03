@@ -2,7 +2,6 @@
 body, ul {
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
 }
 
 /* Estilos para o cabeçalho */
@@ -22,8 +21,8 @@ body, ul {
 }
 
 .logo {
-    width: 150px; /* Tamanho pequeno para o logo */
-    height: 150px;
+    width: 170px; /* Tamanho pequeno para o logo */
+    height: 170px;
     border-radius:25px;
     margin-top: 25px;
     margin-left: 20px; 
@@ -31,8 +30,8 @@ body, ul {
 
 .header-title {
     color: rgb(251, 249, 249); /* Cor do texto do título */
-    font-size: 50px;
-    margin-right: 450px;
+    font-size: 55px;
+    margin-right: 500px;
     text-align: center; /* Centraliza o texto horizontalmente */
 }
 
@@ -41,7 +40,7 @@ body, ul {
     list-style-type: none;
     margin-top: 10px; /* Espaço entre o título e a lista de navegação */
     display: flex; /* Exibe os itens em uma linha */
-    margin-left: 800px;
+    margin-left: 1000px;
 }
 
 .nav-list li {
@@ -60,23 +59,26 @@ body, ul {
     color: #06eb56;
 }
 
-/* Alinhamento sobre aumenta o tamanho box e centraliza */
+
 #sobre {
+    width: 450px;
     background-color: #87CEEB;
+    padding: 20px;
     border-radius: 30px;
     text-align: center;
-    box-shadow: 5px 5px 3px;
-    float: left;
-    width: 40.33%;
-    padding: 30px;
+    margin: 0px; /* Centraliza horizontalmente */
     margin-top: 15px;
+    box-shadow: 5px 5px 3px;
+    margin-left: 20px;
 }
 
 .section {
     background-color: #87CEEB;
     padding: 20px;
+    text-align: center;
     margin: 0 auto;
     margin-top: 20px;
+    width: 450px;
     display: inline;
 }
 
@@ -114,14 +116,18 @@ body, ul {
 
 /* Estilos da seção "Serviço" */
 #servico {
-    background-color: #87CEEB;
+    background-color: #87CEEB;    
+    padding: 0px;
     border-radius: 30px;
     text-align: center;
+    margin-right: 15px; /* Adiciona margem para afastar a seção do cabeçalho e da seção "Sobre" */
+    width: 35%;/* Defina a largura desejada */
+    display: inline-block;
+    vertical-align: top; /* Alinha ao topo da linha */
     box-shadow: 5px 5px 3px;
-    float: right;
-    width: 40.33%;
-    margin-right: 120px;
-    margin-top: 15px;
+    position: static;  
+    top: 0px ;  
+    margin-left: 20px;
 }
 
 /* Remova a margem superior do cabeçalho do "Serviço" */
@@ -131,14 +137,18 @@ body, ul {
 
 /* Estilos da seção "Cadastro" */
 #cadastro {
-    background-color: #87CEEB;
+    background-color: #87CEEB;    
+    padding: 0px;
     border-radius: 30px;
     text-align: center;
+    margin-right: 15%; /* Adiciona margem para afastar a seção do cabeçalho e da seção "Sobre" */
+    margin: 20px;
+    width: 35%;/* Defina a largura desejada */
+    display: inline-block;
+    vertical-align: top; /* Alinha ao topo da linha */
     box-shadow: 5px 5px 3px;
-    float: right;
-    width: 40.33%;
-    margin-right: 160px;
-    margin-top: 15px;
+    position: static;  
+    top: 0px ;  
 }
 
 /* Remova a margem superior do cabeçalho do "Serviço" */
@@ -149,13 +159,17 @@ body, ul {
 /* Estilos da seção "Serviço" */
 #contato {
     background-color: #87CEEB;    
+    padding: 0px;
     border-radius: 30px;
     text-align: center;
+    margin-right: 15%; /* Adiciona margem para afastar a seção do cabeçalho e da seção "Sobre" */
+    width: 35%;/* Defina a largura desejada */
+    display: inline-block;
+    vertical-align: top; /* Alinha ao topo da linha */
     box-shadow: 5px 5px 3px;
-    float: right;
-    width: 40.33%;
-    margin-right: 150px;
-    margin-top: 15px;
+    position: static;  
+    top: 0px ;  
+    margin: 20px;
 }
 
 /* Remova a margem superior do cabeçalho do "Serviço" */
@@ -163,16 +177,16 @@ body, ul {
     margin-top: 0;
 }
 
+
 /* Estilos para o rodapé */
 footer {
     display: flex;
     justify-content: space-between;
-    margin-top: 785px;
-    padding: 50px;
-    background-color: #4682B4;
+    padding: 20px;
+    background-color: 	#4682B4;
     border-radius: 30px;
+    box-shadow: 5px 5px 3px;
     align-items: flex-start; /* Alinha os conteúdos ao topo verticalmente */
-    height: 350px;
 }
 
 .left-column {
@@ -196,8 +210,10 @@ ul li a {
     text-decoration: none;
     color: #fff; /* Cor do texto branco */
     margin-right: 10px;
-    margin-left: 600px;
+    margin-left: 600px;    
 }
+
+
 
 ul li a img {
     width: 20px;
@@ -207,8 +223,8 @@ ul li a img {
 }
 
 footer img {
-    width: 100px;
-    height: 100px;
+    width: 170px;
+    height: 170px;
     margin-right: 10px;
     border-radius: 25px;
 }
@@ -229,15 +245,12 @@ footer .social-media {
     margin-right: 100px; /* Ajuste a margem conforme necessário */
 }
 
+footer .inicio {
+    text-align: right;
+    margin-right: 0px; /* Ajuste a margem conforme necessário */
+}
 
-.servico{
-    margin: 15px;
-    padding: 10px;
-    border: 5px solid #ccc;
-    float: left;
-    width: 200px;
-    height: 150px;
-    text-align: center;
-    border: 2px solid  #4682B4;
-    border-radius: 8px;
+.inicio a:hover {
+    text-decoration: underline; /* Sublinhar ao passar o mouse */
+    color: #f70857;
 }
