@@ -2,6 +2,7 @@
 body, ul {
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 
 /* Estilos para o cabeçalho */
@@ -21,8 +22,8 @@ body, ul {
 }
 
 .logo {
-    width: 170px; /* Tamanho pequeno para o logo */
-    height: 170px;
+    width: 150px; /* Tamanho pequeno para o logo */
+    height: 150px;
     border-radius:25px;
     margin-top: 25px;
     margin-left: 20px; 
@@ -30,8 +31,8 @@ body, ul {
 
 .header-title {
     color: rgb(251, 249, 249); /* Cor do texto do título */
-    font-size: 55px;
-    margin-right: 500px;
+    font-size: 50px;
+    margin-right: 450px;
     text-align: center; /* Centraliza o texto horizontalmente */
 }
 
@@ -40,7 +41,7 @@ body, ul {
     list-style-type: none;
     margin-top: 10px; /* Espaço entre o título e a lista de navegação */
     display: flex; /* Exibe os itens em uma linha */
-    margin-left: 1000px;
+    margin-left: 800px;
 }
 
 .nav-list li {
@@ -59,26 +60,23 @@ body, ul {
     color: #06eb56;
 }
 
-
+/* Alinhamento sobre aumenta o tamanho box e centraliza */
 #sobre {
-    width: 450px;
     background-color: #87CEEB;
-    padding: 20px;
     border-radius: 30px;
     text-align: center;
-    margin: 0px; /* Centraliza horizontalmente */
-    margin-top: 15px;
     box-shadow: 5px 5px 3px;
-    margin-left: 20px;
+    float: left;
+    width: 40.33%;
+    padding: 30px;
+    margin-top: 15px;
 }
 
 .section {
     background-color: #87CEEB;
     padding: 20px;
-    text-align: center;
     margin: 0 auto;
     margin-top: 20px;
-    width: 450px;
     display: inline;
 }
 
@@ -182,11 +180,12 @@ body, ul {
 footer {
     display: flex;
     justify-content: space-between;
-    padding: 20px;
-    background-color: 	#4682B4;
+    margin-top: 300px;
+    padding: 50px;
+    background-color: #4682B4;
     border-radius: 30px;
-    box-shadow: 5px 5px 3px;
     align-items: flex-start; /* Alinha os conteúdos ao topo verticalmente */
+    height: 350px;
 }
 
 .left-column {
@@ -221,8 +220,8 @@ ul li a img {
 }
 
 footer img {
-    width: 170px;
-    height: 170px;
+    width: 100px;
+    height: 100px;
     margin-right: 10px;
     border-radius: 25px;
 }
