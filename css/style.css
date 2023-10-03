@@ -6,7 +6,7 @@ body, ul {
 
 /* Estilos para o cabeçalho */
 .header {
-    background-color: #0074cc; /* Cor de fundo azul */
+    background-color: #191970; /* Cor de fundo azul */
     padding: 5px;
     margin-top: 0px;
     text-align: center;
@@ -16,20 +16,22 @@ body, ul {
 
 .header-container {
     display: flex;
-    align-items: center;
+    align-items: flex-start;
     justify-content: space-between; /* Espaço entre a logo/nav e o título */
 }
 
 .logo {
-    width: 50px; /* Tamanho pequeno para o logo */
-    height: 50px;
-    border-radius: 50px;
+    width: 170px; /* Tamanho pequeno para o logo */
+    height: 170px;
+    border-radius:25px;
+    margin-top: 15px;
+    margin-left: 20px; 
 }
 
 .header-title {
-    color: white; /* Cor do texto do título */
-    font-size: 24px;
-    margin-right: 800px;
+    color: rgb(251, 249, 249); /* Cor do texto do título */
+    font-size: 45px;
+    margin-right: 500px;
     text-align: center; /* Centraliza o texto horizontalmente */
 }
 
@@ -42,7 +44,7 @@ body, ul {
 }
 
 .nav-list li {
-    margin-right: 20px;
+    margin-right: 10px;
 }
 
 .nav-list a {
@@ -54,26 +56,24 @@ body, ul {
 
 .nav-list a:hover {
     text-decoration: underline; /* Sublinhar ao passar o mouse */
+    color: #06eb56;
 }
 
 
-
-
 #sobre {
-    width: 450px;
-    background-color: #007bff;
-    padding: 20px;
-    border-radius: 40px;
+    background-color: #87CEEB;
     text-align: center;
-    margin: 0px; /* Centraliza horizontalmente */
-    margin-top: 10px;
+    width: 600px;
+    margin: 20px;
+    padding: 50px, 10px, 10px,;
+    border-radius: 40px;
+    float: left;
     box-shadow: 5px 5px 3px;
 }
 
 .section {
-    background-color: #007bff;
+    background-color: #87CEEB;
     padding: 20px;
-    border-radius: 40px;
     text-align: center;
     margin: 0 auto;
     margin-top: 20px;
@@ -115,17 +115,12 @@ body, ul {
 
 /* Estilos da seção "Serviço" */
 #servico {
-    background-color: #007bff;    
-    padding: 0px;
+    background-color: #87CEEB;    
+    width: 33.33%;
+    padding: 40px;
     border-radius: 40px;
-    text-align: center;
-    margin-right: 15%; /* Adiciona margem para afastar a seção do cabeçalho e da seção "Sobre" */
-    width: 35%;/* Defina a largura desejada */
-    display: inline-block;
-    vertical-align: top; /* Alinha ao topo da linha */
-    box-shadow: 5px 5px 3px;
-    position: static;  
-    top: 0px ;  
+    float: right;
+    top: 5px;
 }
 
 /* Remova a margem superior do cabeçalho do "Serviço" */
@@ -135,18 +130,12 @@ body, ul {
 
 /* Estilos da seção "Cadastro" */
 #cadastro {
-    background-color: #007bff;    
-    padding: 0px;
-    border-radius: 50px;
-    text-align: center;
-    margin-right: 15%; /* Adiciona margem para afastar a seção do cabeçalho e da seção "Sobre" */
-    margin: 20px;
-    width: 35%;/* Defina a largura desejada */
-    display: inline-block;
-    vertical-align: top; /* Alinha ao topo da linha */
-    box-shadow: 5px 5px 3px;
-    position: static;  
-    top: 0px ;  
+    background-color: #87CEEB;    
+    float: right;
+    width: 33.33%;
+    padding: 40px;
+    border-radius: 40px;
+
 }
 
 /* Remova a margem superior do cabeçalho do "Serviço" */
@@ -156,9 +145,9 @@ body, ul {
 
 /* Estilos da seção "Serviço" */
 #contato {
-    background-color: #007bff;    
+    background-color: #87CEEB;    
     padding: 0px;
-    border-radius: 40px;
+    border-radius: 30px;
     text-align: center;
     margin-right: 15%; /* Adiciona margem para afastar a seção do cabeçalho e da seção "Sobre" */
     width: 35%;/* Defina a largura desejada */
@@ -181,7 +170,7 @@ footer {
     display: flex;
     justify-content: space-between;
     padding: 20px;
-    background-color: #007BFF;
+    background-color: 	#4682B4;
     border-radius: 30px;
     box-shadow: 5px 5px 3px;
     align-items: flex-start; /* Alinha os conteúdos ao topo verticalmente */
@@ -219,10 +208,10 @@ ul li a img {
 }
 
 footer img {
-    width: 60px;
-    height: 60px;
+    width: 170px;
+    height: 170px;
     margin-right: 10px;
-    border-radius: 50%;
+    border-radius: 25px;
 }
 
 footer .footer-content {
@@ -233,7 +222,7 @@ footer .footer-content {
 
 footer .contato {
     text-align: left;
-    margin-left: 200px; /* Ajuste a margem conforme necessário */
+    margin-left: 100px; /* Ajuste a margem conforme necessário */
 }
 
 footer .social-media {
