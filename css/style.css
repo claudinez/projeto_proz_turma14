@@ -109,7 +109,7 @@
 /* Estilos da seção "Cadastro" */
 #cadastro {
     background-color: #87CEEB;
-    
+    margin-top: 20px;
     padding: 25px 55px;
     margin-left: 5px;
     width: 40%;
@@ -185,7 +185,7 @@ footer img {
 }
 
 footer{
-    margin-top: 150px;
+    margin-top: 850px;
 }
 
 footer .footer-content {
