@@ -1,0 +1,233 @@
+/* Reset de estilos para o body e a lista de navegação */
+ *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Estilos para o cabeçalho */
+.header {
+    background-color: #191970; /* Cor de fundo azul */
+    padding: 5px;
+    margin-top: 0px;
+    text-align: center;
+    border-radius: 10px; /* Arredonda os cantos do cabeçalho */
+    box-shadow: 5px 5px 3px;
+}
+
+.header-container {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between; /* Espaço entre a logo/nav e o título */
+}
+
+.logo {
+    width: 170px; /* Tamanho pequeno para o logo */
+    height: 170px;
+    border-radius:25px;
+    margin-top: 25px;
+    margin-left: 20px; 
+}
+
+.header-title {
+    color: rgb(251, 249, 249); /* Cor do texto do título */
+    font-size: 45px;
+    margin-right: 500px;
+    text-align: center; /* Centraliza o texto horizontalmente */
+}
+
+/* Estilos para a navegação principal */
+.nav-list {
+    list-style-type: none;
+    margin-top: 10px; /* Espaço entre o título e a lista de navegação */
+    display: flex; /* Exibe os itens em uma linha */
+    margin-left: 850px;
+}
+
+.nav-list li {
+    margin-right: 10px;
+}
+
+.nav-list a {
+    text-decoration: none;
+    color: white; /* Cor do texto dos links */
+    font-weight: bold;
+    margin-left: 20px;
+}
+
+.nav-list a:hover {
+    text-decoration: underline; /* Sublinhar ao passar o mouse */
+    color: #06eb56;
+}
+
+/* Estilos da seção "Sobre" Pagina do Index.html #id  .class */
+#sobre {
+    margin-top: 20px;
+    margin-left: 5px;
+    text-align: center;
+    text-align: justify;
+    background-color: #87CEEB;
+    width: 40%;
+    height: 400px; 
+    float: left;
+    border-radius: 30px;
+}
+
+.sobre-images img {
+    width: 50px;
+    height: 50px;
+    margin:  5px;
+}
+
+.sobre-images {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+
+
+/* Estilos da seção "Serviço" Pagina do Index.html */
+#iservicos {
+
+}
+
+.iservico {
+    background-color: #87CEEB;
+    margin-top: 20px;
+    margin-left: 15px;
+    width: 50%;
+    height: 400px;
+    float: left;
+    text-align: center;
+    list-style-type: none;
+    border-radius: 30px;
+}
+
+/* Estilos da seção "Cadastro" */
+#cadastro {
+    background-color: #87CEEB;
+    
+    padding: 25px 55px;
+    margin-left: 5px;
+    width: 40%;
+    height: 400px;
+    float: left;
+    text-align: center;
+    list-style-type: none;
+    border-radius: 30px;
+}
+
+/* Estilos da seção "Serviço" */
+#contato {
+    background-color: #87CEEB;
+    margin-top: 20px;
+    margin-left: 15px;
+    width: 50%;
+    height: 400px;
+    float: left;
+    text-align: center;
+    list-style-type: none;
+    border-radius: 30px;
+}
+
+/* Estilos para o rodapé */
+footer {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 350px;
+    padding: 20px;
+    background-color: 	#4682B4;
+    border-radius: 30px;
+    box-shadow: 5px 5px 3px;
+    align-items: flex-start; /* Alinha os conteúdos ao topo verticalmente */
+    clear: both;
+}
+
+.left-column {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start; /* Alinha à esquerda dentro da coluna esquerda */
+}
+
+.right-column {
+    text-align: right; /* Alinha o conteúdo à direita */
+}
+
+/* Estilos para a lista não ordenada */
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+/* Estilos para os links nas redes sociais */
+ul li a {
+    text-decoration: none;
+    color: #fff; /* Cor do texto branco */
+    margin-right: 10px;
+    margin-left: 600px;    
+}
+
+ul li a img {
+    width: 20px;
+    height: 20px;
+    vertical-align: middle;
+    margin-right: 10px;
+}
+
+footer img {
+    width: 170px;
+    height: 170px;
+    margin-right: 10px;
+    border-radius: 25px;
+}
+
+footer{
+    margin-top: 150px;
+}
+
+footer .footer-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+footer .contato {
+    text-align: left;
+    margin-left: 100px; /* Ajuste a margem conforme necessário */
+}
+
+footer .social-media {
+    text-align: right;
+    margin-right: 100px; /* Ajuste a margem conforme necessário */
+}
+
+footer .inicio {
+    text-align: right;
+    margin-right: 0px; /* Ajuste a margem conforme necessário */
+}
+
+.inicio a:hover {
+    text-decoration: underline; /* Sublinhar ao passar o mouse */
+    color: #f70857;
+}
+
+/* pagina servico.html*/
+.servicos{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.servico{
+    width: 20%;
+    height: 200px;
+    background-color: #87CEEB;
+    border: 1px solid blue;
+    align-items: center;
+    text-align: center;
+}
