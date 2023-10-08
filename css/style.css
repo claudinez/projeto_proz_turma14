@@ -73,8 +73,9 @@
     margin-top: 20px;
     margin-left: 5px;
     margin-right: 80px; /* margem separando sobre de serviço*/
+    padding: 2%;
     text-align: center;
-    text-align: justify;
+    text-indent: 3%;
     background-color: #87CEEB;
     width: 40%;
     height: 400px; 
@@ -111,6 +112,7 @@
     margin-left: 10px;
     width: 400px;
     height: 400px;
+    padding: 2%;
     float: left;
     text-align: center;
     list-style-type: none;
@@ -121,7 +123,7 @@
 #cadastro {
     background-color: #87CEEB;
     margin-top: 20px;
-    padding: 25px 55px;
+    padding: 2%;
     margin-left: 5px;
     width: 400px;
     height: 400px;
@@ -138,6 +140,7 @@
     margin-left: 15px;
     width: 400px; /* lagura  da box */
     height: 400px; /* tamanho da box */
+    padding: 2%;
     float: left;
     text-align: center;
     list-style-type: none;
@@ -280,4 +283,66 @@ footer .inicio {
     align-items: center;
     text-align: center;
     border-radius: 50px;
+}
+
+/* pagina sobre.html*/
+.sobre{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.sobre1{
+    width: 40%;
+    height: 400px;
+    margin-top: 2%;
+    margin-left: 2%;
+    padding: 2%;
+    background-color: #87CEEB;
+    border: 1px solid blue;
+    align-items: center;
+    text-align: center;
+    border-radius: 50px;
+    display: inline-flex;
+    flex-direction: column;
+    
+    
+}
+
+.sobre-images img {
+    width: 15%;
+    height: 15%;
+    margin: 20px;
+}
+
+.sobre-images {
+    display: flex;
+    justify-content: left;
+    margin-left: 14%;
+}
+
+.sobre2{
+    width: 40%;
+    height: 400px;
+    margin-top: 2%;
+    margin-left: 2%;
+    padding: 2%;
+    background-color: #87CEEB;
+    border: 1px solid blue;
+    align-items: center;
+    text-align: center;
+    border-radius: 50px;
+    display: inline-flex;
+    flex-direction: column;
+    
+}
+
+.sobre-images2 {
+    display: flex;
+    justify-content: left;
+    margin-left: 9%;
+    margin-top: 2%;
+    height: 250px;
 }
