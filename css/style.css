@@ -81,6 +81,7 @@
     height: 400px; 
     float: left;
     border-radius: 30px;
+    border: 1px solid black;
 }
 
 .paragrafo {
@@ -117,6 +118,7 @@
     text-align: center;
     list-style-type: none;
     border-radius: 100%;
+    border: 1px solid black;
 }
 
 /* Estilos da seção "Cadastro" */
@@ -131,6 +133,7 @@
     text-align: center;
     list-style-type: none;
     border-radius: 100%;
+    border: 1px solid black;
 }
 
 /* Estilos da seção "Serviço" */
@@ -145,6 +148,7 @@
     text-align: center;
     list-style-type: none;
     border-radius: 100%; /* deixa esfera */
+    border: 1px solid black;
 }
 
 /* Estilos para o rodapé */
