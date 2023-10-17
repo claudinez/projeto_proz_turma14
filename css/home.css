@@ -1,0 +1,82 @@
+/* Estilos da seção "Sobre" Pagina do Index.html #id  .class */
+#sobre {
+    margin-top: 20px;
+    margin-left: 5px;
+    margin-right: 80px; /* margem separando sobre de serviço*/
+    padding: 2%;
+    text-align: center;
+    text-indent: 3%;
+    background-color: #87CEEB;
+    width: 40%;
+    height: 400px; 
+    float: left;
+    border-radius: 30px;
+    border: 1px solid black;
+}
+
+.paragrafo {
+    text-align: center;
+    padding-top: 5px 5px;
+}
+
+.sobre-images img {
+    width: 50px;
+    height: 50px;
+    margin: 50px;
+}
+
+.sobre-images {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+/* Estilos da seção "Serviço" Pagina do Index.html */
+#iservicos {
+
+}
+
+.iservico {
+    background-color: #87CEEB;
+    margin-top: 20px;
+    margin-left: 10px;
+    width: 400px;
+    height: 400px;
+    padding: 2%;
+    float: left;
+    text-align: center;
+    list-style-type: none;
+    border-radius: 100%;
+    border: 1px solid black;
+}
+
+/* Estilos da seção "Cadastro" */
+#cadastro {
+    background-color: #87CEEB;
+    margin-top: 20px;
+    padding: 2%;
+    margin-left: 5px;
+    width: 400px;
+    height: 400px;
+    float: left;
+    text-align: center;
+    list-style-type: none;
+    border-radius: 100%;
+    border: 1px solid black;
+}
+
+/* Estilos da seção "Serviço" */
+#contato {
+    background-color: #87CEEB;
+    margin-top: 20px;
+    margin-left: 15px;
+    width: 400px; /* lagura  da box */
+    height: 400px; /* tamanho da box */
+    padding: 2%;
+    float: left;
+    text-align: center;
+    list-style-type: none;
+    border-radius: 100%; /* deixa esfera */
+    border: 1px solid black;
+}
