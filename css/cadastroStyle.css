@@ -1,0 +1,26 @@
+.linksContainer{
+    display: grid;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    text-indent: 4%;
+    background-color: #87CEEB;
+    width: 40%;
+    height: 400px; 
+    border-radius: 30px;
+    margin-left: 30%;
+    margin-top: 5%;
+    border: 1px solid black;
+    
+}
+
+.cadastro1{
+    padding: 2%;
+    text-align: center;
+    text-indent: 3%;
+    background-color: #87CEEB;
+    width: 40%;
+    height: 400px; 
+    border-radius: 30px;
+    border: 1px solid black;
+}
