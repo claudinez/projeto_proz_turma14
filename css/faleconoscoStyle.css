@@ -1,0 +1,79 @@
+/* estilos para o cabeçalho */
+.header {
+    background-color: #191970; /* cor de fundo azul */
+    padding: 5px;
+    margin-top: 0px;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 5px 5px 3px;
+}
+.header-container {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+
+section{
+    display: grid;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    text-indent: 6%;
+    background-color: #87CEEB;
+    width: 50%;
+    height: 550px;
+    border-radius: 20%;
+    margin-left: 30%;
+    margin-top: 7%;
+    border: 1px solid black;
+}
+.content{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+section form{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 100%;
+}
+form label{
+    font-size: 20px;
+    margin-bottom: 12px;
+}
+form input{
+    padding: 15px;
+    outline: none;
+    border: 0;
+    margin-bottom: 20px;
+    font-size: 15px;
+    transition: all 0.5s;
+
+}
+form input:focus{
+    border-radius: 16px;
+}
+ form textarea{
+    padding: 10px;
+    outline: none;
+    border: 0;
+    font-size: 15px;
+    margin-bottom: 30px;
+    transition: all 0.5s;
+ }
+form button{
+    padding: 15px;
+    cursor: pointer;
+    font-size: 16px;
+    background: transparent;
+    border: 2px solid #191970;
+    color: #191970;
+    transition: all 1s;
+    margin-bottom: 20px;
+}
+form button:hover{
+    background: #191970;
+    color: #87CEEB;
+border-radius: 16px;
+}
