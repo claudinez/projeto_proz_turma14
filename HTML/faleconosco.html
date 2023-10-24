@@ -16,8 +16,8 @@
 
     <header class="header">
         <div class="header-container">
-            <img src="../img/Logo_MedPrest1.png" alt="Logo Medicina" class="Logo" />
-            <H1 class="header-title">Prestação de Serviço Médico</H1>
+            <img src="../img/Logo_MedPrest1.png" alt="Logo Medicina" class="logo" />
+            <h1 class="header-title">Prestação de Serviço Médico</h1>
         </div>
         
         <nav class="main-nav">
@@ -30,7 +30,7 @@
             </ul>
         </nav>
     </header>
-<body class="bg">
+
     <section>
        
         <div class="linksContainer">
@@ -40,13 +40,13 @@
                 
                 <div id="Contato">
                     <form action="https://api.staticforms.xyz/submit" method="post">
-                        <label>Nome</label>
+                        <h2><label>Nome</label></h2>
                         <input type="text" name="name" placeholder="Digite Seu Nome" autocomplete="off">
-                        <label>Email</label>
+                        <h2><label>Email</label></h2>
                         <input type="email" name="email" placeholder="Digite Seu Email" autocomplete="off">
-                        <label>Mensagem</label>
+                        <h2><label>Mensagem</label></h2>
                         <textarea name="message" cols="30" rows="10" placeholder="Digite Sua Mensagem"></textarea>
-                        <button type="submit">Enviar</button>
+                        <h2><button type="submit">Enviar</button></h2>
 
                         <input type="hidden" name="accessKey" value="11d008dd-5f24-4c4e-ba62-285b5355c52b">
                         <input type="hidden" name="redirectTo" value="http://127.0.0.1:5500/HTML/obrigado.html">
@@ -59,15 +59,27 @@
         
     </section>
     <footer>
-        <strong>Siga-nos nas redes sociais</strong> 
-        <ul>
-            <li><a href="https://www.facebook.com"> <img src="../img/facebook-logo.png" alt="Facebook">Facebook</a></li>
-            <li><a href="https://web.whatsapp.com"> <img src="../img/whatsapp1.png" alt="WhatsApp">WhatsApp</a></li>
-            <li><a href="https://www.instagram.com"><img src="../img/instagram.png" alt="Instagram">Instagram</a></li>
-        </ul>
-        <ul>
-            <a href="../index.html">Voltar</a>
-        </ul>
+        <img src="../img/Logo_MedPrest1.png" alt="Logo Medicina">
+        <div class="footer-content">
+            <div class="contato">
+                <h4>Atendimento</h4>
+                <p><strong>De segunda à Sexta:</strong></p>
+                <p>Das 08:00 às 17:00</p>
+                <p><strong>Sábados:</strong></p>
+                <p>Das 08:00 às 12:00</p>
+            </div>
+            <div class="social-media">
+                <strong>Siga-nos nas redes sociais</strong>
+                <ul>
+                    <p><li><a href="https://www.facebook.com"><img src="../img/facebook-logo.png" alt="Facebook">Facebook</a></li></p>
+                    <p><li><a href="https://web.whatsapp.com"><img src="../img/whatsapp1.png" alt="WhatsApp">WhatsApp</a></li></p>
+                    <p><li><a href="https://www.instagram.com"><img src="../img/instagram.png" alt="Instagram">Instagram</a></li></p>
+                    <div class="inicio">
+                        <a href="../index.html">Voltar à página inicial</a>
+                    </div>
+                </ul>
+            </div>
+        </div>
     </footer>
 </body>
 </html>
