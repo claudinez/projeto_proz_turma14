@@ -42,17 +42,19 @@
 }
 
 .header-title {
-    color: rgb(251, 249, 249); /* Cor do texto do título */
+    color: #fef8ed; /* Cor do texto do título */
     font-size: 70px;
     margin-right: 300px;
     text-align: center; /* Centraliza o texto horizontalmente */
     margin-top: 65px;
     text-shadow: 
-               -1px -1px 0px #f2f6f2, 
-               -1px 1px 0px #f4eff3,                    
-                -5px -3px 0px #62af4c,                  
-                0px 0px 0px #FFF;
+               -1px -1px 0px #8fc256, 
+               -1px 1px 0px #0ab3b1,                    
+                -5px -3px 0px #1e6e48,                  
+                0px 0px 0px #ffffff;
 }
+
+
 
 /* Estilos para a navegação principal */
 .nav-list {
@@ -68,14 +70,14 @@
 
 .nav-list a {
     text-decoration: none;
-    color: white; /* Cor do texto dos links */
+    color: #1e6e48; /* Cor do texto dos links */
     font-weight: bold;
     margin-left: 20px;
 }
 
 .nav-list a:hover {
     text-decoration: underline; /* Sublinhar ao passar o mouse */
-    color: #06eb56;
+    color: #8c0ec7;
 }
 
 /*----------------------------------------------------------------------------------------------/ 
