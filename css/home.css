@@ -1,28 +1,4 @@
-<<<<<<< HEAD
-main {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-/* Estilos da seção "Sobre" Pagina do Index.html #id  .class */
-#sobre {
-    margin-top: 1px;
-    margin-left: 5px;
-    margin-right: 80px; /* margem separando sobre de serviço*/
-    padding: 2%;
-    text-indent: 3%;
-    background-color: #87CEEB;
-    width: 40%;
-    height: 600px; 
-    float: left;
-    border-radius: 30px;
-    border: 1px solid black;
-    font-size: 20px;
-    text-align: justify;
-}
-=======
 /*Estilo conteudo */ 
->>>>>>> c5f6a88763cf01b0588bb7a4f3c69efe6765c2f5
 
 .container {
     max-width: 1200px;
