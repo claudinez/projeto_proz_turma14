@@ -1,96 +1,92 @@
 <!DOCTYPE html>
-<html lang="pt-br">
-<html lang="pt-BR">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Projeto Final Proz Tech Turma 14 - Grupo 03</title>
-    <title>Prestação de Serviço Médico</title>
-    <link rel="stylesheet" href="../css/style.css">
-    <link rel="stylesheet" href="../css/cadastroStyle.css">
-    <link rel="icon" href="../img/icone_telemedicina2.png">
-</head>
-
-<body class="bg">
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Projeto Final Proz Tech Turma 14 - Grupo 03</title>
+        <title>Prestação de Serviços Médicos</title>
+        <link rel="stylesheet" href="../css/style.css">
+        <link rel="stylesheet" href="../css/cadastroStyle.css">
+        <link rel="icon" href="../img/icone_telemedicina2.png">
+    </head>
     
     <!-- Cabeçalho -->
     <header class="header">
         <div class="header-container">
             <img src="../img/Logo_MedPrest1.png" alt="Logo Medicina" class="logo" />
-            <h1 class="header-title">Prestação de Serviço Médico</h1>
+            <h1 class="header-title">Prestação de Serviços Médicos</h1>
         </div>
         <nav class="main-nav">
             <ul class="nav-list">
                 <li><a href="../index.html">Home</a></li>
                 <li><a href="../html/sobre.html">Sobre</a></li>
-                <li><a href="../html/servico.html">Serviço</a></li>
+                <li><a href="../html/servico.html">Serviços</a></li>
                 <li><a href="../html/cadastro.html">Cadastro</a></li>
                 <li><a href="../html/faleconosco.html">Fale Conosco</a></li>
             </ul>
         </nav>
     </header>
 
-    <div class="linksContainer">
-        <a class="links" id="fazercadastro"></a>
-        <a class="links" id="fazerLogin"></a>
+<body class="bg">
 
-        <div class="content">
-
-            <!--FORMULÁRIO DE LOGIN-->
-            <div id="login">
-                <form method="post" action="link">
-                    <p><h1>Login</h1></p>
-
-                    <p>
-                        <label for="email_login">Seu e-mail</label>
-                        <input type="email_login" id="email_login" name="email_login" type="text" />
-                    </p>
-                    <p>
-                        <label for="senha_login">Sua senha</label>
-                        <input id="senha_login" name="senha_login" type="password" />
-                    </p>
-
-                    <p>
-                        <input type="submit" value="Logar" />
-                    </p>
-                    <p class="link">
-                        <a href="#fazerCadastro">Cadastre-se</a>
-                    </p>
-                </form>
+    <div class="mainContainer">
+        <div class="container">
+            <div class="linksForm">
+            <h2>Criar Conta</h2>
             </div>
-            <div id="cadastro">
-                <form method="post" action=a href="index.html"> </a>
-                    <h1>Cadastro</h1>
+            <form class="form" id="form">
 
-                    <p>
-                        <label for="nome_cad">Seu nome</label>
-                        <input id="nome_cad" name="nome_cadastro" type="text" />
-                    </p>
+                <div class="form-control">
 
-                    <p>
-                        <label for="email_cadastro">Seu e-mail</label>
-                        <input id="email_cadastro" name="email_cadastro" type="email" />
-                    </p>
+                    <label for="username" >Nome</label>
+                    <input type="text" id="username">
+                    <i class="img-success" ><img src="../img/success-icon.svg" alt=""></i>
+                    <i class="img-error" ><img src="../img/error-icon.svg" alt=""></i>
 
-                    <p>
-                        <label for="senha_cadastro">Sua senha</label>
-                        <input id="senha_cadastro" name="senha_cadastro" type="password" />
-                        </p>
+                    <small>Error Message</small>
 
-                        <p> 
-                            <input type="submit" value="Cadastrar" />
-                    </p>
+                </div>
 
-                    <p class="link">
-                        Já tem conta?
-                        <a href="#fazerLogin"> Ir para Login </a>
-                    </p>
-                </form>
-            </div>
+                <div class="form-control">
+
+                    <label>Email</label>
+                    <input type="email" id="email">
+                    <i class="img-success" ><img src="../img/success-icon.svg" alt=""></i>
+                    <i class="img-error" ><img src="../img/error-icon.svg" alt=""></i>
+
+                    <small>Error Message</small>
+
+                </div>
+
+                <div class="form-control">
+
+                    <label>Senha</label>
+                    <input type="password" id="password">
+                    <i class="img-success" ><img src="../img/success-icon.svg" alt=""></i>
+                    <i class="img-error" ><img src="../img/error-icon.svg" alt=""></i>
+
+                    <small>Error Message</small>
+
+                </div>
+
+                <div class="form-control">
+
+                    <label>Confirme sua senha</label>
+                    <input type="password" id="password-two">
+                    <i class="img-success" ><img src="../img/success-icon.svg" alt=""></i>
+                    <i class="img-error" ><img src="../img/error-icon.svg" alt=""></i>
+
+                    <small>Error Message</small>
+
+                </div>
+
+                <button type="submit" >ENVIAR</button>
+            </form>
         </div>
-    </div>
+    </div>    
 
+        <script src="../js/cadastro.js"></script>
+    
     <footer>
         <img src="../img/Logo_MedPrest1.png" alt="Logo Medicina">
         <div class="footer-content">
@@ -115,3 +111,4 @@
         </div>
     </footer>
 </body>
+</html>
