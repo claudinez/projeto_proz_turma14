@@ -179,8 +179,8 @@ section {
     margin-right: 100px; /* Adiciona margem à esquerda para separar a imagem do conteúdo de texto */
 }
 
-/*Servico com as imagens*/
-
+/* estilo.css */
+/* estilo.css */
 .service-list {
     list-style: none;
     display: flex;
@@ -191,14 +191,15 @@ section {
 
 .service-list li {
     display: flex;
+    flex-direction: column;
     align-items: center;
     margin-right: 5px;
 }
 
 .service-list img {
     width: 100%;
-    max-width: 100px; /* Reduz o tamanho da imagem em 10% */
-    margin-right: 5px;
+    max-width: 200px; /* Reduz o tamanho da imagem para 200px */
+    margin-bottom: 5px;
 }
 
 h2 {
