@@ -179,9 +179,10 @@ section {
     margin-right: 100px; /* Adiciona margem à esquerda para separar a imagem do conteúdo de texto */
 }
 
-/* estilo.css */
-/* estilo.css */
+
+/* serviço  */
 .service-list {
+    background-color:#4682B4; /* Cor de fundo da seção */
     list-style: none;
     display: flex;
     flex-direction: row;
@@ -190,6 +191,7 @@ section {
 }
 
 .service-list li {
+    background-color:#4682B4; /* Cor de fundo da seção */
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -208,4 +210,46 @@ h2 {
 
 section {
     text-align: center;
+}
+
+
+/* fala conosco */
+
+.contact-section {
+    text-align: center;
+    color: rgb(65, 7, 7); /* Cor do texto dentro da seção */
+    padding: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 400px; /* Defina a altura desejada */
+}
+
+.contact-content {
+    width: 100%; /* Largura total */
+}
+
+.contact-text {
+    text-align: center;
+}
+
+.contact-text h1 {
+    font-size: 24px;
+    letter-spacing: 2px; /* Espaçamento entre as letras do cabeçalho */
+}
+
+.contact-text img {
+    max-width: 100%; /* Garante que a imagem não ultrapasse a largura da div */
+    margin: 10px 0; /* Espaçamento superior e inferior para a imagem */
+}
+
+.contact-text h2 {
+    font-size: 18px;
+    color: rgb(77, 8, 8); /* Cor do subtitulo */
+}
+
+.contact-text a {
+    color: rgb(47, 5, 5); /* Cor do link de "contato" */
+    text-decoration: underline;
+    letter-spacing: 1px; /* Espaçamento entre as letras do link */
 }
