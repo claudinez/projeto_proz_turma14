@@ -166,7 +166,7 @@ footer .inicio {
 section {
     display: flex;
     justify-content: space-between; /* Coloca o conteúdo e a imagem em lados opostos */
-    align-items: center;
+    text-align: justify;
 }
 
 .content {
@@ -179,3 +179,32 @@ section {
     margin-right: 100px; /* Adiciona margem à esquerda para separar a imagem do conteúdo de texto */
 }
 
+/*Servico com as imagens*/
+
+.service-list {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.service-list li {
+    display: flex;
+    align-items: center;
+    margin-right: 5px;
+}
+
+.service-list img {
+    width: 100%;
+    max-width: 100px; /* Reduz o tamanho da imagem em 10% */
+    margin-right: 5px;
+}
+
+h2 {
+    text-align: center;
+}
+
+section {
+    text-align: center;
+}
