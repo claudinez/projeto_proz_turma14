@@ -163,3 +163,19 @@ footer .inicio {
     color: #f70857;
 }
 
+section {
+    display: flex;
+    justify-content: space-between; /* Coloca o conteúdo e a imagem em lados opostos */
+    align-items: center;
+}
+
+.content {
+    flex: 1; /* Ocupa todo o espaço disponível */
+    max-width: 50%; /* Define a largura máxima para o conteúdo */
+}
+
+.image {
+    max-width: 35%; /* Reduzir o tamanho da imagem em 20% */
+    margin-right: 100px; /* Adiciona margem à esquerda para separar a imagem do conteúdo de texto */
+}
+
