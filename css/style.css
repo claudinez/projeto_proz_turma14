@@ -86,7 +86,6 @@
 footer {
     display: flex;
     justify-content: space-between;
-    margin-top: 350px;
     padding: 20px;
     background-color: 	#4682B4;
     border-radius: 30px;
@@ -133,10 +132,6 @@ footer img {
     border-radius: 25px;
 }
 
-footer{
-    margin-top: 850px;
-}
-
 footer .footer-content {
     display: flex;
     justify-content: space-between;
@@ -176,9 +171,8 @@ section {
     max-width: 50%; /* Define a largura máxima para o conteúdo */
 }
 
-
 .image {
-    max-width: 35%; /* Reduzir o tamanho da imagem em 20% */
+    max-width: 37%; /* Reduzir o tamanho da imagem em 20% */
     margin-right: 100px; /* Adiciona margem à esquerda para separar a imagem do conteúdo de texto */ 
 }
 
@@ -190,7 +184,6 @@ section {
 
 /* serviço  */
 .service-list {
-    background-color:#4682B4; /* Cor de fundo da seção */
     list-style: none;
     display: flex;
     flex-direction: row;
@@ -199,28 +192,28 @@ section {
 }
 
 .service-list li {
-    background-color:#4682B4; /* Cor de fundo da seção */
+    font-weight: bold;
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin-right: 5px;
+    justify-content: center;
+    width: 220px;
 }
 
 .service-list img {
-    width: 100%;
-    max-width: 200px; /* Reduz o tamanho da imagem para 200px */
-    margin-bottom: 2px;
+    border-radius: 5px;
+    width: 98%;
+    max-width: 200px; /* Reduz o tamanho da imagem para 200px */    
 }
 
 .service-list img:hover{
-     box-shadow:
-                1px 1px #53a7ea,
-                2px 2px #53a7ea,
-                3px 3px #53a7ea;
-        -webkit-transform: translateX(-3px);
-        transform: translateX(-13px);
+    box-shadow:
+               1px 1px #ffffff,
+               2px 2px #ffffff,
+               3px 3px #ffffff;
+       -webkit-transform: translateX(-3px);
+       transform: translateX(-13px);
 }
-
 
 h2 {
     text-align: center;
@@ -229,7 +222,6 @@ h2 {
 section {
     text-align: center;
 }
-
 
 /* fala conosco */
 
@@ -249,6 +241,7 @@ section {
 
 .contact-text {
     text-align: center;
+    margin: 50px;
 }
 
 .contact-text h1 {
@@ -259,6 +252,7 @@ section {
 .contact-text img {
     max-width: 100%; /* Garante que a imagem não ultrapasse a largura da div */
     margin: 10px 0; /* Espaçamento superior e inferior para a imagem */
+    border-radius: 5px;
 }
 
 .contact-text img:hover{
@@ -267,14 +261,13 @@ section {
     transform: scale(0.8);
 }
 
-
 .contact-text h2 {
     font-size: 18px;
-    color: rgb(77, 8, 8); /* Cor do subtitulo */
+    color: #1e6e48; /* Cor do subtitulo */
 }
 
 .contact-text a {
-    color: rgb(47, 5, 5); /* Cor do link de "contato" */
+    color: rgb(184, 16, 159); /* Cor do link de "contato" */
     text-decoration: underline;
     letter-spacing: 1px; /* Espaçamento entre as letras do link */
 }

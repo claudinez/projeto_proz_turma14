@@ -4,23 +4,32 @@
     max-width: 1200px;
     margin: 0 auto;
     padding: 20px;
+    line-height: 28px;
 }
+
 .header-container {
     display: flex;
     align-items: flex-start;
     justify-content: space-between; /* Espaço entre a logo/nav e o título */
 }
+
 section {
     margin: 20px 0;
     padding: 20px;
+    align-items: center;
     background-color: white;
     border: 1px solid #ccc;
-    border-radius: 5px;
     background: linear-gradient(to bottom, #3498db, #c2e1c2);
+    border-radius: 20px;    
+}
+
+.service-list{
+    border-radius: 10px 10px 10px 10px;
 }
 
 p {
     text-indent: 1.5em;
-    margin-top: 0 
+    padding: 10;
+    margin-top: 0px; 
 }
 
