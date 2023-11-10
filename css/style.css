@@ -209,13 +209,16 @@ section {
 .service-list img {
     width: 100%;
     max-width: 200px; /* Reduz o tamanho da imagem para 200px */
-    margin-bottom: 5px;
+    margin-bottom: 2px;
 }
 
 .service-list img:hover{
-    -webkit-transform: rotateZ(-30deg);
-    -ms-transform: rotateZ(-30deg);
-    transform: rotateZ(-30deg);
+     box-shadow:
+                1px 1px #53a7ea,
+                2px 2px #53a7ea,
+                3px 3px #53a7ea;
+        -webkit-transform: translateX(-3px);
+        transform: translateX(-13px);
 }
 
 
