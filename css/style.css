@@ -163,6 +163,8 @@ footer .inicio {
     color: #f70857;
 }
 
+/* Sobre */
+
 section {
     display: flex;
     justify-content: space-between; /* Coloca o conteúdo e a imagem em lados opostos */
@@ -174,11 +176,17 @@ section {
     max-width: 50%; /* Define a largura máxima para o conteúdo */
 }
 
+
 .image {
     max-width: 35%; /* Reduzir o tamanho da imagem em 20% */
-    margin-right: 100px; /* Adiciona margem à esquerda para separar a imagem do conteúdo de texto */
+    margin-right: 100px; /* Adiciona margem à esquerda para separar a imagem do conteúdo de texto */ 
 }
 
+.image:hover{
+    -webkit-transform: scale(0.8);
+    -ms-transform: scale(0.8);
+    transform: scale(0.8);
+}
 
 /* serviço  */
 .service-list {
@@ -242,6 +250,13 @@ section {
     max-width: 100%; /* Garante que a imagem não ultrapasse a largura da div */
     margin: 10px 0; /* Espaçamento superior e inferior para a imagem */
 }
+
+.contact-text img:hover{
+    -webkit-transform: scale(0.8);
+    -ms-transform: scale(0.8);
+    transform: scale(0.8);
+}
+
 
 .contact-text h2 {
     font-size: 18px;
