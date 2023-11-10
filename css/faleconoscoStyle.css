@@ -63,17 +63,6 @@ form button:hover{
     border-radius: 16px;
 }
 
-.imagem-wpp{
-    width: 50px;
-    height: 30px;
-    position: fixed;
-    bottom: 50px; 
-    right: 30px;
-}
-
-.imagem-wpp img{
-    border-radius: 60px;
-}
 
 
 
