@@ -212,6 +212,13 @@ section {
     margin-bottom: 5px;
 }
 
+.service-list img:hover{
+    -webkit-transform: rotateZ(-30deg);
+    -ms-transform: rotateZ(-30deg);
+    transform: rotateZ(-30deg);
+}
+
+
 h2 {
     text-align: center;
 }
