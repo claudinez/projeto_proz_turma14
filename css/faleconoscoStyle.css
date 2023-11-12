@@ -21,6 +21,7 @@
     max-width: 100%;
     border-radius: 20px;
     box-shadow: 0 35px 80px rgba(0,0,0, .15, green, blue, alpha);
+    
 }
 
 .linksForm {
@@ -38,7 +39,7 @@
 }
 
 .form-control {
-    margin-bottom: 10px;
+    margin-bottom: 30px;
     padding-bottom: 20px;
     position: relative;
 }
@@ -101,6 +102,7 @@ form input:focus{
     font-size: 14px;
 
 }
+
 
 .form button {
     background-color: #4c81ec;
