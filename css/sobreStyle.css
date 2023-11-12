@@ -12,48 +12,52 @@
     
 }
 
+.sobre h2{
+    color: #0ab3b1;
+}
+
 .sobre1{
     padding: 2%;
     text-align: center;
     text-indent: 3%;
-    background: linear-gradient(to bottom, #3498db, #c2e1c2);;
+    background: whitesmoke;
     width: 45%;
     height: 340px; 
     border-radius: 30px;
-    border: 1px solid black;
+    
 }
 
 .sobre2{
     padding: 2%;
     text-align: center;
     text-indent: 3%;
-    background: linear-gradient(to bottom, #3498db, #c2e1c2);;
+    background: whitesmoke;
     width: 45%;
     height: 340px; 
     border-radius: 30px;
-    border: 1px solid black;
+    
 }
 
 .sobre3{
     padding: 2%;
     text-align: center;
     text-indent: 3%;
-    background: linear-gradient(to bottom, #3498db, #c2e1c2);;
+    background: whitesmoke;
     width: 45%;
     height: 340px; 
     border-radius: 30px;
-    border: 1px solid black;
+    
 }
 
 .sobre4{
     padding: 2%;
     text-align: center;
     text-indent: 3%;
-    background: linear-gradient(to bottom, #3498db, #c2e1c2);;
+    background: whitesmoke;
     width: 45%;
     height: 340px; 
     border-radius: 30px;
-    border: 1px solid black;
+    
 }
 
 /* imagens sobre.html*/
@@ -90,7 +94,7 @@
 .slide{
     width: 25%;
     position: relative;
-    transition: 2s;
+    transition: 1.5s;
 }
 
 .slide img{
