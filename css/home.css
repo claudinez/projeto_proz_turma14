@@ -21,6 +21,7 @@ section {
     border: 1px solid #ccc;
     background: linear-gradient(to bottom, #3498db, #c2e1c2);
     border-radius: 20px;    
+    font-weight: bold;
 }
 
 .service-list{
