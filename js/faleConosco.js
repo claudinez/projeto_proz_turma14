@@ -1,7 +1,7 @@
 const form = document.getElementById('form')
 const username = document.getElementById('username')
 const email = document.getElementById('email')
-const message = document.getElementById('textbox')
+const textMessage = document.getElementById('textMessage')
 
 form.addEventListener('submit', (e) => {
     e.preventDefault()
@@ -13,8 +13,7 @@ function checkInputs() {
 
     const usernameValue = username.value.trim()
     const emailValue = email.value.trim()
-    const textbox = message.value.trim()
-    
+    const textMessageValue = textMessage.value.trim()
 
     if(usernameValue === '') {
         // mostrar erro
@@ -36,15 +35,15 @@ function checkInputs() {
         setSuccessFor(email)
     }
    
-    if(textbox === '') {
+    if(textMessageValue === '') {
         // mostrar erro
         // add classe
-        setErrorFor(username, 'Preencha esse campo')
+        setErrorFor(textMessage, 'Digite sua mensagem')
     } else {
         // adicionar a classe de sucesso
-        setSuccessFor(username)
+        setSuccessFor(textMessage)
     }
-    
+
 }
 
 function setErrorFor(input, message) {
