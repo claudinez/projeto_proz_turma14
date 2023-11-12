@@ -31,42 +31,55 @@
         </nav>
     </header>
 
-    <section>
-       
-        <div class="linksContainer">
-            <a class="links" id="faleconosco"></a>
-
-            <div class="content">
-                
-                <div id="Contato">
-                    <form action="https://api.staticforms.xyz/submit" method="post">
-                        <h2><label>Nome</label></h2>
-                        <input type="text" name="name" placeholder="Digite Seu Nome" autocomplete="off">
-                        <h2><label>Email</label></h2>
-                        <input type="email" name="email" placeholder="Digite Seu Email" autocomplete="off">
-                        <h2><label>Mensagem</label></h2>
-                        <textarea name="message" cols="30" rows="10" placeholder="Digite Sua Mensagem"></textarea>
-                        <h2><button type="submit">Enviar</button></h2>
-
-                        <input type="hidden" name="accessKey" value="11d008dd-5f24-4c4e-ba62-285b5355c52b">
-                        <input type="hidden" name="redirectTo" value="http://127.0.0.1:5500/HTML/obrigado.html">
-                    </form>
-
+    
+        <div class="mainContainer">
+            <div class="container">
+                <div class="linksForm">
+                <h2>Fale Conosco</h2>
                 </div>
-
+                <form class="form" id="form">
+        
+                    <div class="form-control">
+        
+                        <label for="username" >Nome</label>
+                        <input type="text" id="username">
+                        <i class="img-success" ><img src="../img/success-icon.svg" alt=""></i>
+                        <i class="img-error" ><img src="../img/error-icon.svg" alt=""></i>
+        
+                        <small>Error Message</small>
+        
+                    </div>
+        
+                    <div class="form-control">
+        
+                        <label>Email</label>
+                        <input type="email" id="email">
+                        <i class="img-success" ><img src="../img/success-icon.svg" alt=""></i>
+                        <i class="img-error" ><img src="../img/error-icon.svg" alt=""></i>
+        
+                        <small>Error Message</small>
+        
+                    </div>
+        
+                    <div class="form-control">
+                        
+                        <label for="textbox"></label>
+                        <textarea name="message" cols="48" rows="15" placeholder="Digite Sua Mensagem"></textarea>
+                        <small>Error Message</small>                
+        
+                    </div>
+        
+                    <button type="submit" >ENVIAR</button>
+                </form>
             </div>
-        </div>
+        </div>    
         <div class="imagem-wpp">
             <a href="https://www.whatsapp.com/?lang=pt_BR">
                 <img src="../img/wpp.png" alt="imagem whatsapp">
             </a>
         </div>  
-        
-        
-        
-    </section>
-
     
+        <script src="../js/cadastro.js"></script>
 
     <footer>
         <img src="../img/Logo_MedPrest1.png" alt="Logo Medicina">
