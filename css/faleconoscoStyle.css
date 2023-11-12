@@ -1,68 +1,125 @@
-section{
-    display: grid;
-    display: flex;
-    justify-content: center;
-    text-align: center;
-    text-indent: 6%;
-    background-color: #87CEEB;
-    width: 50%;
-    height: 550px;
-    border-radius: 30px;
-    margin-left: 30%;
-    margin-top: 7%;
-    border: 1px solid black;
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
-.content{
-    display: flex;
-    justify-content: center;
-    text-align: center;
-}
-section form{
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    width: 100%;
-}
-form label{
-    font-size: 20px;
-    margin-bottom: 12px;
-}
-form input{
-    padding: 15px;
-    outline: none;
-    border: 0;
-    margin-bottom: 20px;
-    font-size: 15px;
-    transition: all 0.5s;
 
-}
-form input:focus{
-    border-radius: 16px;
-}
- form textarea{
-    padding: 10px;
-    outline: none;
+.mainContainer {
+    display: flex;
+    font-family: Poppins;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
     border: 0;
-    font-size: 15px;
-    margin-bottom: 30px;
-    transition: all 0.5s;
- }
-form button{
-    padding: 15px;
-    cursor: pointer;
-    font-size: 16px;
-    background: transparent;
-    border: 2px solid #191970;
-    color: #191970;
+    
+}
+.container {
+    background-color: #ffffff;
+    border-radius: 5px;
+    border: 2px solid #1e6e48;
+    width: 450px;
+    max-width: 100%;
+    border-radius: 20px;
+    box-shadow: 0 35px 80px rgba(0,0,0, .15, green, blue, alpha);
+}
+
+.linksForm {
+    padding: 30px 40px;
+}
+
+.linksForm h2 {
+    font-weight: 600;
+    color: #0ab3b1;
+    font-size: 30px;
+}
+
+.form {
+    padding: 0 40px 30px;
+}
+
+.form-control {
+    margin-bottom: 10px;
+    padding-bottom: 20px;
+    position: relative;
+}
+
+.form-control label {
+    display: inline-block;
+    margin-bottom: 5px;
+    color: #1e6e48;
+}
+
+.form-control input {
+    border: 2px solid #3E445B;
+    border-radius: 5px;
+    outline: 0;
     transition: all 1s;
-    margin-bottom: 20px;
+    display: block;
+
+    font-size: 14px;
+
+    width: 100%;
+    padding: 15px;
 }
-form button:hover{
-    background: #191970;
-    color: #87CEEB;
+
+form input:focus{
+    border-radius: 15px;
+}
+
+.form-control.success input {
+    border: 3px solid #4ECA64;
+}
+
+.form-control.error input {
+    border: 3px solid #DB5A5A;
+}
+
+.form-control.error i.img-error {
+    visibility: visible;
+}
+
+.form-control.success i.img-success {
+    visibility: visible;
+}
+
+.form-control.error small{
+    color: #DB5A5A;
+    visibility: visible;
+}
+
+.form-control i {
+    position: absolute;
+    top: 45px;
+    right: 10px;
+    visibility: hidden;
+}
+
+.form-control small {
+    visibility: hidden;
+    position: absolute;
+    margin-top: 5px;
+    font-size: 14px;
+
+}
+
+.form button {
+    background-color: #4c81ec;
+    
+    color: #fff;
+    padding: 15px;
+    font-size: 15px;
+    font-weight: 600;
+    width: 100%;
+
+    margin-top: 5px;
+
+    cursor: pointer;
+    
+}
+
+.form button:hover {
+    background-color: #120c79;
+    transition: 1s;
     border-radius: 16px;
+    
 }
-
-
-
-
