@@ -8,6 +8,7 @@
     margin-top: 5%;
     margin-bottom: 5%;
     line-height: 22px;
+    font-weight: bold;
     
 }
 
@@ -17,7 +18,7 @@
     text-indent: 3%;
     background: linear-gradient(to bottom, #3498db, #c2e1c2);;
     width: 45%;
-    height: 320px; 
+    height: 340px; 
     border-radius: 30px;
     border: 1px solid black;
 }
@@ -28,7 +29,7 @@
     text-indent: 3%;
     background: linear-gradient(to bottom, #3498db, #c2e1c2);;
     width: 45%;
-    height: 320px; 
+    height: 340px; 
     border-radius: 30px;
     border: 1px solid black;
 }
@@ -39,7 +40,7 @@
     text-indent: 3%;
     background: linear-gradient(to bottom, #3498db, #c2e1c2);;
     width: 45%;
-    height: 320px; 
+    height: 340px; 
     border-radius: 30px;
     border: 1px solid black;
 }
@@ -50,7 +51,7 @@
     text-indent: 3%;
     background: linear-gradient(to bottom, #3498db, #c2e1c2);;
     width: 45%;
-    height: 320px; 
+    height: 340px; 
     border-radius: 30px;
     border: 1px solid black;
 }
