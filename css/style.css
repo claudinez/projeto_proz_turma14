@@ -25,6 +25,7 @@
     text-align: center;
     border-radius: 10px; /* Arredonda os cantos do cabeçalho */
     box-shadow: 5px 5px 3px;
+    
 }
 
 .header-container {
@@ -73,6 +74,7 @@
     color: #1e6e48; /* Cor do texto dos links */
     font-weight: bold;
     margin-left: 20px;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 .nav-list a:hover {
@@ -104,6 +106,9 @@ footer {
     box-shadow: 5px 5px 3px;
     align-items: flex-start; /* Alinha os conteúdos ao topo verticalmente */
     clear: both;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    
 }
 
 .left-column {
