@@ -24,7 +24,7 @@
     margin-top: 0px;
     text-align: center;
     border-radius: 10px; /* Arredonda os cantos do cabeçalho */
-    box-shadow: 5px 5px 3px;
+    box-shadow: 5px 10px 10px 3px white;
     
 }
 
@@ -103,7 +103,7 @@ footer {
     padding: 20px;
     background-color: 	#4682B4;
     border-radius: 30px;
-    box-shadow: 5px 5px 3px;
+    box-shadow: 5px 5px 3px white;
     align-items: flex-start; /* Alinha os conteúdos ao topo verticalmente */
     clear: both;
     color: white;
