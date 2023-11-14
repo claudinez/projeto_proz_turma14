@@ -25,6 +25,7 @@
     border-radius: 20px;
     box-shadow: 0 35px 80px rgba(0,0,0, .15, green, blue, alpha);
     background: #ffff;
+    transition: 1s;
 }
 
 .container .card:hover {
@@ -38,7 +39,7 @@
     height: 220px;
     border-radius: 12px;
     overflow: hidden;
-    transition: .5s;
+    transition: 1s;
     
 }
 .container .card .caixaImg img {
@@ -55,10 +56,11 @@
     top: 250px;
     width: 100%;
     height: 37px;
-    padding: 0 30px;
+    padding: 0 27px;
     overflow: hidden; 
     text-align: center;
     transition: .5s;
+    font-weight: bold;
     
 }
 
